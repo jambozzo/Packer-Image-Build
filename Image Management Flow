@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-02T02:01:37.546Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="oDt3AhoAXCTvGuNdKaWv" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-02T10:12:19.702Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="2EKmjk5JHxH2Ep7QH4-6" version="21.2.3" type="github">
   <diagram name="Page-1" id="lAlVdNudVkRyElGKGxTz">
     <mxGraphModel dx="794" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -50,8 +50,13 @@
         </mxCell>
         <mxCell id="w_SDebKLZOwlzJtNYWrO-20" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="219.41" as="sourcePoint" />
-            <mxPoint x="220" y="219.41" as="targetPoint" />
+            <mxPoint x="120" y="219.5" as="sourcePoint" />
+            <mxPoint x="220" y="219.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_SDebKLZOwlzJtNYWrO-43" value="Scheduled&lt;br&gt;Trigger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="w_SDebKLZOwlzJtNYWrO-20">
+          <mxGeometry x="-0.2533" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w_SDebKLZOwlzJtNYWrO-24" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
@@ -82,13 +87,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_SDebKLZOwlzJtNYWrO-34" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;-Packer AzureRM&lt;br&gt;-Terraform AzureRM&lt;br&gt;-Azure PoSH&lt;/font&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="w_SDebKLZOwlzJtNYWrO-34" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Tasks&lt;br&gt;-Packer AzureRM - image&lt;br&gt;-Terraform AzureRM - vm&lt;br&gt;-Tenable Scan?&lt;br&gt;-Automated Testing?&lt;br&gt;-Azure PoSH - export disk to blob&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="245" y="270" width="150" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="w_SDebKLZOwlzJtNYWrO-35" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;-Line 1&lt;br&gt;-Line 2&lt;br&gt;-Line 3&lt;br&gt;-Line 4&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="w_SDebKLZOwlzJtNYWrO-35" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Ansible tasks&lt;br&gt;-Reduce vhd size&lt;br&gt;-Pull vhd from blob storage&lt;br&gt;-Convert to wim&lt;br&gt;-Move to Artifactory repo&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="439" y="270" width="150" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="w_SDebKLZOwlzJtNYWrO-36" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;-Line 1&lt;br&gt;-Line 2&lt;br&gt;-Line 3&lt;br&gt;-Line 4&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="w_SDebKLZOwlzJtNYWrO-36" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Ansible tasks&lt;br&gt;-Push to SCCM&lt;br&gt;-Add to test OSD task sequence&lt;br&gt;-Automated testing?&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="640" y="270" width="150" height="135" as="geometry" />
         </mxCell>
         <mxCell id="w_SDebKLZOwlzJtNYWrO-37" value="Image&lt;br&gt;Build" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -99,6 +104,18 @@
         </mxCell>
         <mxCell id="w_SDebKLZOwlzJtNYWrO-39" value="Image&lt;br&gt;Distro" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="570" y="45" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w_SDebKLZOwlzJtNYWrO-44" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.875;entryY=0.762;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.3;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="w_SDebKLZOwlzJtNYWrO-6" target="w_SDebKLZOwlzJtNYWrO-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="180" as="sourcePoint" />
+            <mxPoint x="430" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_SDebKLZOwlzJtNYWrO-45" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.875;entryY=0.762;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.3;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="649" y="190" as="sourcePoint" />
+            <mxPoint x="551" y="105" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
