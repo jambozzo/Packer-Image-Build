@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T13:01:52.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="Oplb9qQV1lEgIKtYalI-" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-02T13:04:18.989Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="Vom1SNHfFy4uq6If559X" version="21.2.1" type="github">
   <diagram name="Page-1" id="lAlVdNudVkRyElGKGxTz">
     <mxGraphModel dx="836" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -84,13 +84,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_SDebKLZOwlzJtNYWrO-34" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Tasks&lt;br&gt;-Packer Image Build&lt;br&gt;-Tenable Scans&lt;br&gt;-InSpec Tests&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" parent="1" vertex="1">
+        <mxCell id="w_SDebKLZOwlzJtNYWrO-34" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Tasks&lt;/b&gt;&lt;br&gt;-Packer Image Build&lt;br&gt;-Tenable Scans&lt;br&gt;-InSpec Tests&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="245" y="270" width="150" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="w_SDebKLZOwlzJtNYWrO-35" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Tasks&lt;br&gt;-VMDK &amp;gt; VHDX Disk Conversion&lt;br&gt;-WIM Image Creation&lt;br&gt;-Convert to wim&lt;br&gt;-Publish to Artifactory&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" parent="1" vertex="1">
+        <mxCell id="w_SDebKLZOwlzJtNYWrO-35" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Tasks&lt;/b&gt;&lt;br&gt;-Qemu-image VMDK &amp;gt; VHDX&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Disk Conversion&amp;nbsp;&lt;br&gt;-PoSH Mount VHDX &amp;gt; Create &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;WIM Image&lt;br&gt;-Publish to Artifactory&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="439" y="270" width="150" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="w_SDebKLZOwlzJtNYWrO-36" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Tasks&lt;br&gt;-Copy to Secure File Share&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" parent="1" vertex="1">
+        <mxCell id="w_SDebKLZOwlzJtNYWrO-36" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Tasks&lt;/b&gt;&lt;br&gt;-Copy to Secure File Share&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="640" y="270" width="150" height="135" as="geometry" />
         </mxCell>
         <mxCell id="w_SDebKLZOwlzJtNYWrO-37" value="Image&lt;br&gt;Build" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
