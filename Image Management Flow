@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T18:41:51.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="1u7eu2lvIht1bjJEP3sz" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-18T07:38:34.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="KZu1q7MfQWv7odGQFmWs" version="21.7.2" type="github">
   <diagram name="Page-1" id="lAlVdNudVkRyElGKGxTz">
-    <mxGraphModel dx="635" dy="384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="773" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SktU7aE5AkmYf9_BOmwu-4" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="480" y="170" width="250" height="120" as="geometry" />
+        <mxCell id="gWweqkvgosfEi8q8vIPV-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="170" width="250" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="dbTsNK07qxV8bTWTeDQY-3" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="170" y="170" width="270" height="120" as="geometry" />
+        <mxCell id="gWweqkvgosfEi8q8vIPV-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="170" width="250" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="dbTsNK07qxV8bTWTeDQY-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="dbTsNK07qxV8bTWTeDQY-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="25" y="300" width="725" height="200" as="geometry" />
         </mxCell>
         <mxCell id="w_SDebKLZOwlzJtNYWrO-4" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Pipelines.svg;" parent="1" vertex="1">
@@ -19,21 +19,21 @@
         <mxCell id="w_SDebKLZOwlzJtNYWrO-7" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_DevOps.svg;" parent="1" vertex="1">
           <mxGeometry x="30" y="380" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w_SDebKLZOwlzJtNYWrO-9" value="&lt;font color=&quot;#000000&quot;&gt;Artifactory&lt;/font&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.serverless_application_repository;" parent="1" vertex="1">
+        <mxCell id="w_SDebKLZOwlzJtNYWrO-9" value="&lt;font style=&quot;background-color: rgb(0, 0, 0);&quot; color=&quot;#ffffff&quot;&gt;Artifactory&lt;/font&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.serverless_application_repository;" parent="1" vertex="1">
           <mxGeometry x="540" y="190" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="w_SDebKLZOwlzJtNYWrO-20" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=1.03;exitY=0.577;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" target="w_SDebKLZOwlzJtNYWrO-4" source="w_SDebKLZOwlzJtNYWrO-7">
+        <mxCell id="w_SDebKLZOwlzJtNYWrO-20" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=1.03;exitY=0.577;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#FFFFFF;labelBackgroundColor=#000000;strokeColor=#FFFFFF;" parent="1" source="w_SDebKLZOwlzJtNYWrO-7" target="w_SDebKLZOwlzJtNYWrO-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="115" y="339.5" as="sourcePoint" />
             <mxPoint x="215" y="339.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_SDebKLZOwlzJtNYWrO-43" value="Scheduled&lt;br&gt;Trigger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="w_SDebKLZOwlzJtNYWrO-20" vertex="1" connectable="0">
+        <mxCell id="w_SDebKLZOwlzJtNYWrO-43" value="Scheduled&lt;br&gt;Trigger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="w_SDebKLZOwlzJtNYWrO-20" vertex="1" connectable="0">
           <mxGeometry x="-0.2533" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_SDebKLZOwlzJtNYWrO-24" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.483;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="w_SDebKLZOwlzJtNYWrO-35" source="dbTsNK07qxV8bTWTeDQY-1">
+        <mxCell id="w_SDebKLZOwlzJtNYWrO-24" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.483;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;" parent="1" source="dbTsNK07qxV8bTWTeDQY-1" target="w_SDebKLZOwlzJtNYWrO-35" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="295" y="339.40999999999997" as="sourcePoint" />
             <mxPoint x="415" y="339" as="targetPoint" />
@@ -49,41 +49,50 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_SDebKLZOwlzJtNYWrO-34" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Job (linux agent)&lt;/b&gt;&lt;br&gt;-Packer Image Build&lt;br&gt;-Tenable Scans&lt;br&gt;-InSpec Tests&lt;br&gt;-Generalize&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" parent="1" vertex="1">
+        <mxCell id="w_SDebKLZOwlzJtNYWrO-34" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Job (linux agent)&lt;/b&gt;&lt;br&gt;-Packer Image Build&lt;br&gt;-Tenable Scans&lt;br&gt;-InSpec Tests&lt;br&gt;-Generalize&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="215" y="340" width="150" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="w_SDebKLZOwlzJtNYWrO-35" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Job&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;(linux agent)&lt;/b&gt;&lt;br&gt;-Pull VMDK from vCenter&lt;br&gt;-Qemu-img VMDK &amp;gt; VHDX&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;Disk Conversion&amp;nbsp;&lt;br&gt;-Push VHDX to Artifactory&lt;br&gt;&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" parent="1" vertex="1">
+        <mxCell id="w_SDebKLZOwlzJtNYWrO-35" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Job&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;(linux agent)&lt;/b&gt;&lt;br&gt;-Pull VMDK from vCenter&lt;br&gt;-Qemu-img VMDK &amp;gt; VHDX&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;Disk Conversion&amp;nbsp;&lt;br&gt;-Push VHDX to Artifactory&lt;br&gt;&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="380" y="340" width="150" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="w_SDebKLZOwlzJtNYWrO-37" value="Image&lt;br&gt;Build" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="w_SDebKLZOwlzJtNYWrO-37" value="Image&lt;br&gt;Build" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="200" y="215" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w_SDebKLZOwlzJtNYWrO-38" value="Image&lt;br&gt;Publish" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="w_SDebKLZOwlzJtNYWrO-38" value="Image&lt;br&gt;Publish" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="640" y="220" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dbTsNK07qxV8bTWTeDQY-1" value="vCenter" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.vcenter_server;" parent="1" vertex="1">
+        <mxCell id="dbTsNK07qxV8bTWTeDQY-1" value="&lt;font style=&quot;background-color: rgb(0, 0, 0);&quot; color=&quot;#ffffff&quot;&gt;vCenter&lt;/font&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.vcenter_server;" parent="1" vertex="1">
           <mxGeometry x="285" y="190" width="80" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="SktU7aE5AkmYf9_BOmwu-1" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Job&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;(windows agent)&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;-Pull VHDX from Artifactory&lt;br&gt;-Mount VHDX and create the&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;WIM Image&lt;br&gt;-Push to Artifactory&lt;br&gt;-Delete the VHDX from Artifactory&lt;br&gt;&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="SktU7aE5AkmYf9_BOmwu-1" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Job&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;(windows agent)&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;-Pull VHDX from Artifactory&lt;br&gt;-Mount VHDX and create the&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;WIM Image&lt;br&gt;-Push to Artifactory&lt;br&gt;-Delete the VHDX from Artifactory&lt;br&gt;&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.bulletedList;textColor=#666666;mainText=,,,,;textSize=17;bulletStyle=none;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=17;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="570" y="340" width="150" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="SktU7aE5AkmYf9_BOmwu-2" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.586;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="w_SDebKLZOwlzJtNYWrO-35" target="w_SDebKLZOwlzJtNYWrO-9">
+        <mxCell id="SktU7aE5AkmYf9_BOmwu-2" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.586;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;strokeColor=#FFFFFF;" parent="1" source="w_SDebKLZOwlzJtNYWrO-35" target="w_SDebKLZOwlzJtNYWrO-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="413.5" y="230" as="sourcePoint" />
             <mxPoint x="496.5" y="385" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SktU7aE5AkmYf9_BOmwu-5" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="SktU7aE5AkmYf9_BOmwu-1" target="w_SDebKLZOwlzJtNYWrO-9">
+        <mxCell id="SktU7aE5AkmYf9_BOmwu-5" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;strokeColor=#FFFFFF;" parent="1" source="SktU7aE5AkmYf9_BOmwu-1" target="w_SDebKLZOwlzJtNYWrO-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="478" y="398" as="sourcePoint" />
             <mxPoint x="550" y="275" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SktU7aE5AkmYf9_BOmwu-6" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.079;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="w_SDebKLZOwlzJtNYWrO-34" target="dbTsNK07qxV8bTWTeDQY-1">
+        <mxCell id="SktU7aE5AkmYf9_BOmwu-6" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.079;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FFFFFF;" parent="1" source="w_SDebKLZOwlzJtNYWrO-34" target="dbTsNK07qxV8bTWTeDQY-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="478" y="348" as="sourcePoint" />
             <mxPoint x="550" y="275" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gWweqkvgosfEi8q8vIPV-6" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 18px;&quot;&gt;1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gWweqkvgosfEi8q8vIPV-7" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 18px;&quot;&gt;2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gWweqkvgosfEi8q8vIPV-8" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 18px;&quot;&gt;3&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
